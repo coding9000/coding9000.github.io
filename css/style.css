@@ -28,7 +28,7 @@ body  {
 
 /* Start Container*/
 .container {
-    margin: 10px auto;
+    margin: 2px auto;
     overflow: auto;
     width: 90%;
  }
@@ -37,17 +37,18 @@ body  {
 /* Start Logo */
 .logo {
     text-align: center;
+    height:170px;
 }
 /* End Logo */
 
 /* Start Anchor/ Hiperlink  */
-a:link
+a:link,
 a:visited {
     color: #0366d6;
     text-decoration: none;
 
 }
-a:hover 
+a:hover,
 a:active {
     color: #000000;
     text-decoration: underline; 
@@ -64,11 +65,11 @@ a:active {
     0 6px  10px 0 rgba(0,0,0,.14),
     0 1px 18px 0 rgba(0,0,0,.12);
 }
-.menu-primer li{
-border-right: 1px solid #d1d5da;
-display: inline-block;
-margin: 0 -4px;
-}  
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0 -4px;
+    }  
 .menu-primer a {
     color: #d1d5da;
     font-size: 13px;
@@ -79,16 +80,16 @@ margin: 0 -4px;
     text-transform: uppercase;
     }  
 
-    .menu-primer a:hover {
-        background-color: #f7f7f7;
-        color: #000000;
-        text-decoration: none;
+.menu-primer a:hover {
+    background-color: #f7f7f7;
+    color: #000000;
+    text-decoration: none;
     }
 
-    .menu-primer .active {
-        background-color: #ffffff;
-        color: #333333;
-        text-decoration: none;
+.menu-primer .active {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
     }
 /* End Menu Primer */
 
@@ -123,7 +124,7 @@ h6 {
     background-color: #ecf2f7;
     border: 1px solid #eaecef;
     border-radius: 4px;
-    padding: 20px 0; 
+    padding: 10px 0; 
 }
 
 .jumbotron h1 {
@@ -151,7 +152,7 @@ h6 {
 
 .main-home-one .box-isi,
 .main-home-two .box-isi{
-    height: 120px;
+    height: 150px;
 }
 /* End Main */
 
@@ -180,11 +181,21 @@ h6 {
 }
 /* End Box Promo-Layanan*/
 
+/* Start Testimonial */
+    .testimonial {
+        border-left:4px solid #dfe2e5;
+    }
+   
+
+/* Start Testimonial */
+
+
 /* Start Effect */
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 .snip1584 {
   font-family: 'Raleway', sans-serif;
   position: relative;
+  display: inline-block;
   display: inline-block;
   overflow: hidden;
   margin: 10px;
@@ -290,3 +301,77 @@ h6 {
 }
 
 /* End Effect */
+
+/* start tengah */
+.tengah {
+    text-align: center;
+}
+/* start tengah */
+
+/* Start Main Sekunder*/
+
+.menu-sekunder {
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #eaecef;
+    border-top: 1px solid #eaecef;
+    overflow: auto;
+    padding: 10px 0;
+}
+
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.menu-sekunder ul {
+    padding: 0;
+}
+
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p {
+    font size=10px;
+}
+
+.menu-sekunder li img {
+    vertical-align : middle;
+    }
+
+.menu-sekunder-siji,
+.menu-sekunder-loro,
+.menu-sekunder-telu {
+    float: left;
+}
+
+.menu-sekunder-siji {
+        width: 35%;
+}
+
+.menu-sekunder-loro {
+       width: 30%;
+}
+
+.menu-sekunder-telu {
+     width: 25 %;
+}
+/* End Main Sekunder*/
+
+/* Start Copyright */
+.copyright p {
+    font-size: 15px;
+}
+/* End Copyright */
+
+/* Start Alamat */
+/* .alamat {
+    width: 90%;
+    background-color: #ecf2f7;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 10px 0; 
+} */
+/* End Alamat */
