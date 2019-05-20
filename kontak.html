@@ -30,7 +30,7 @@
          <div class="container menu-primer">
                 <ul>
                     <li>
-                        <a href="index.html" title="Beranda" class="active">Beranda</a>
+                        <a href="index.html" title="Beranda">Beranda</a>
                     </li>
     
                     <li>
@@ -54,7 +54,7 @@
                     </li>
                     
                     <li>
-                        <a href="kontak.html" title="Kontak Kami">Kontak Kami</a>
+                        <a href="kontak.html" title="Kontak Kami"class="active">Kontak Kami</a>
                     </li>
                 </ul>
             </div>
@@ -82,15 +82,16 @@
                         </li>
                     </ul>
                 </p>
+                </div>
             <!-- End Alamat-->
 
             <!-- Start Form-->
-
+            <div class= "container Alamat" >
             <h2>Form Kontak Oleh-oleh Khas Jombang</h2>
             <p> Anda bisa pesan dan konfirmasi Pembayaran melalui Form dibawah ini:</p>
                 <form action="">
                         <form class="kontak-form" 
-                        action="https://formspree.io/coding9000@gmail.com" method="POST">
+                        action="https://formspree.io/coding9000@gmail.com" method="POST"></form>
                         
                     <label for="nama"> 
                         Nama Lengkap
@@ -110,14 +111,15 @@
                         Email 
                     </label>
                     <br>
-                        <input  type="tetx" placeholder="nama@contoh.com" size="50" name="email" id="email">
+                        <input  type="text" placeholder="nama@contoh.com" size="50" name="email" id="email">
                     <br><br>
 
                     <label for="pesan"> 
                             Pesan 
                     </label>
                         <br>
-                        <textarea type="text" placeholder="Tulis pesan disini" name="pesan" id="pesan" cols="46" rows="5">
+                        <textarea placeholder="Tulis pesan disini" name="pesan" id="pesan" cols="46" rows="5">
+                                Tulis pesan disini
                         </textarea>
                     <br>
                     <input type="submit" name="kirim" size="70" value="Kirim">
