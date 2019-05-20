@@ -76,7 +76,6 @@ a:active {
     display: inline-block;
     letter-spacing: 1 px;
     padding: 10px 20px;
-
     text-transform: uppercase;
     }  
 
@@ -153,6 +152,7 @@ h6 {
 .main-home-one .box-isi,
 .main-home-two .box-isi{
     height: 150px;
+    width: 90%;
 }
 /* End Main */
 
@@ -185,9 +185,7 @@ h6 {
     .testimonial {
         border-left:4px solid #dfe2e5;
     }
-   
-
-/* Start Testimonial */
+/* End Testimonial */
 
 
 /* Start Effect */
@@ -315,7 +313,8 @@ h6 {
     border-bottom: 1px solid #eaecef;
     border-top: 1px solid #eaecef;
     overflow: auto;
-    padding: 10px 0;
+    /* padding: 10px 0; */
+    padding: 10px 20px;
 }
 
 .menu-sekunder h4 {
@@ -375,3 +374,9 @@ h6 {
     padding: 10px 0; 
 } */
 /* End Alamat */
+
+/* Start Tentang Kami */
+.tentang-kami {
+    padding: 10px 20px;
+}
+/* Start Tentang Kami */
